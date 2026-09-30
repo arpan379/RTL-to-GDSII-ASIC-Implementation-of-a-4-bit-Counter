@@ -1,0 +1,48 @@
+# Cadence / simulation generated data
+INCA_libs/
+xcelium.d/
+cov_work/
+*.shm/
+*.trn
+*.dsn
+*.history
+*.log
+*.key
+*.err
+*.cmd
+*.sv
+*.vcd
+
+# Genus / Innovus generated databases and temporary files
+*.enc.dat
+*.enc
+*.db
+*.lef
+*.lib
+*.gds
+*.oas
+*.sdf
+*.spef
+*.def
+*.rpt
+*.rep
+
+# Generated netlists/constraints can be large or machine-generated.
+# Uncomment if you prefer not to version them:
+# synthesis/counter_netlist.v
+# synthesis/counter.sdc
+# reports/*
+
+# Cadence working directories
+*.oa
+*.cdslck
+*.cdsenv
+*.cdsinit
+cds.lib
+INNOVUS/
+GENUS/
+
+# OS/editor
+.DS_Store
+*.swp
+*~
